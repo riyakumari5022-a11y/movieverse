@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MovieVerse</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='home.css') }}">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+🎬 MovieVerse
+
+</div>
+
+<ul>
+
+<li>
+
+<a href="{{ url_for('home') }}" class="nav-link">
+
+🏠 Home
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#toprated" class="nav-link">
+
+⭐ Top Rated
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#latest" class="nav-link">
+
+🆕 Latest
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#recommend" class="nav-link">
+
+🤖 For You
+
+</a>
+
+</li>
+
+<li>
+
+<a href="{{ url_for('watchlist') }}" class="nav-link">
+
+❤️ Watchlist
+
+</a>
+
+</li>
+
+<li>
+
+<a href="/random" class="nav-link">
+
+🎲 Surprise
+
+</a>
+
+</li>
+
+<li>
+
+<a href="{{ url_for('logout') }}" class="logout-btn">
+
+Logout
+
+</a>
+
+</li>
+
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+
+🍿 Welcome Back {{ session['user'] }}
+
+</h1>
+
+<h2>
+
+Discover Movies You'll Love
+
+</h2>
+
+<p id="hero-tagline">
+
+Every movie tells a story.
+
+Find yours today.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#movies" class="primary-btn">
+
+🎥 Browse Movies
+
+</a>
+
+<a href="/random" class="secondary-btn">
+
+🎲 Surprise Me
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="search">
+
+<form action="{{ url_for('home') }}" method="GET">
+
+<input
+type="text"
+name="search"
+placeholder="Search for Movies..."
+value="{{ search_query }}"
+>
+
+<button>
+
+🔍 Search
+
+</button>
+
+</form>
+
+</section>
+
+<section class="filters">
+
+<a href="{{ url_for('home') }}">
+
+All
+
+</a>
+
+{% for genre in genres %}
+
+<a href="{{ url_for('home',genre=genre) }}">
+
+{{ genre }}
+
+</a>
+
+{% endfor %}
+
+</section>
+
+<section class="movies" id="movies">
+
+<div class="section-title">
+
+<h2>
+
+🔥 Trending Movies
+
+</h2>
+
+<a href="#">
+
+See All →
+
+</a>
+
+</div>
+
+<div class="movie-row">
+
+{% for movie in movies[:6] %}
+
+<a href="{{ url_for('movie',title=movie.title) }}"
+class="movie-link">
+
+<div class="card">
+
+<img src="{{ movie.poster }}">
+
+<h3>{{ movie.title }}</h3>
+
+<p>⭐ {{ movie.rating }}</p>
+
+<p>🎭 {{ movie.genre }}</p>
+
+</div>
+
+</a>
+
+{% endfor %}
+
+</div>
+
+</section>
+
+<section class="movies" id="toprated">
+
+<div class="section-title">
+
+<h2>
+
+⭐ Top Rated
+
+</h2>
+
+<a href="#">
+
+See All →
+
+</a>
+
+</div>
+
+<div class="movie-row">
+
+{% for movie in top_rated %}
+
+<a href="{{ url_for('movie',title=movie.title) }}"
+class="movie-link">
+
+<div class="card">
+
+<img src="{{ movie.poster }}">
+
+<h3>{{ movie.title }}</h3>
+
+<p>⭐ {{ movie.rating }}</p>
+
+<p>{{ movie.genre }}</p>
+
+</div>
+
+</a>
+
+{% endfor %}
+
+</div>
+
+</section>
+
+<section class="movies" id="latest">
+
+<div class="section-title">
+
+<h2>
+
+🆕 Latest Releases
+
+</h2>
+
+<a href="#">
+
+See All →
+
+</a>
+
+</div>
+
+<div class="movie-row">
+
+{% for movie in latest_movies %}
+
+<a href="{{ url_for('movie',title=movie.title) }}"
+class="movie-link">
+
+<div class="card">
+
+<img src="{{ movie.poster }}">
+
+<h3>{{ movie.title }}</h3>
+
+<p>{{ movie.year }}</p>
+
+<p>{{ movie.genre }}</p>
+
+</div>
+
+</a>
+
+{% endfor %}
+
+</div>
+
+</section>
+
+<section class="movies" id="recommend">
+
+    <div class="section-title">
+
+        <h2>🤖 Recommended For You</h2>
+
+        <a href="#">See All →</a>
+
+    </div>
+
+    <div class="movie-row">
+
+        {% for movie in personalized %}
+
+        <a href="{{ url_for('movie', title=movie.title) }}" class="movie-link">
+
+            <div class="card">
+
+                <img src="{{ movie.poster }}">
+
+                <h3>{{ movie.title }}</h3>
+
+                <p>⭐ {{ movie.rating }}</p>
+
+                <p>{{ movie.genre }}</p>
+
+            </div>
+
+        </a>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+<section class="movies">
+
+    <div class="section-title">
+
+        <h2>😄 Feel Good Movies</h2>
+
+        <a href="#">See All →</a>
+
+    </div>
+
+    <div class="movie-row">
+
+        {% for movie in feel_good %}
+
+        <a href="{{ url_for('movie', title=movie.title) }}" class="movie-link">
+
+            <div class="card">
+
+                <img src="{{ movie.poster }}">
+
+                <h3>{{ movie.title }}</h3>
+
+                <p>⭐ {{ movie.rating }}</p>
+
+                <p>{{ movie.genre }}</p>
+
+            </div>
+
+        </a>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+<section class="movies">
+
+    <div class="section-title">
+
+        <h2>💥 Action Rush</h2>
+
+        <a href="#">See All →</a>
+
+    </div>
+
+    <div class="movie-row">
+
+        {% for movie in action_movies %}
+
+        <a href="{{ url_for('movie', title=movie.title) }}" class="movie-link">
+
+            <div class="card">
+
+                <img src="{{ movie.poster }}">
+
+                <h3>{{ movie.title }}</h3>
+
+                <p>⭐ {{ movie.rating }}</p>
+
+                <p>{{ movie.genre }}</p>
+
+            </div>
+
+        </a>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+<section class="movies">
+
+    <div class="section-title">
+
+        <h2>😱 Horror Night</h2>
+
+        <a href="#">See All →</a>
+
+    </div>
+
+    <div class="movie-row">
+
+        {% for movie in horror_movies %}
+
+        <a href="{{ url_for('movie', title=movie.title) }}" class="movie-link">
+
+            <div class="card">
+
+                <img src="{{ movie.poster }}">
+
+                <h3>{{ movie.title }}</h3>
+
+                <p>⭐ {{ movie.rating }}</p>
+
+                <p>{{ movie.genre }}</p>
+
+            </div>
+
+        </a>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+<section class="movies">
+
+    <div class="section-title">
+
+        <h2>🧠 Mind Bending</h2>
+
+        <a href="#">See All →</a>
+
+    </div>
+
+    <div class="movie-row">
+
+        {% for movie in mind_bending %}
+
+        <a href="{{ url_for('movie', title=movie.title) }}" class="movie-link">
+
+            <div class="card">
+
+                <img src="{{ movie.poster }}">
+
+                <h3>{{ movie.title }}</h3>
+
+                <p>⭐ {{ movie.rating }}</p>
+
+                <p>{{ movie.genre }}</p>
+
+            </div>
+
+        </a>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <h3>🎬 MovieVerse</h3>
+
+    <p>
+
+        Discover. Watch. Enjoy.
+
+    </p>
+
+</footer>
+
+
+<script>
+
+const taglines = [
+
+"🍿 Every great movie starts with one click.",
+
+"🎥 Find your next favorite movie.",
+
+"🌍 Explore Hollywood, Bollywood, Korean and more.",
+
+"⭐ Thousands of stories. One MovieVerse.",
+
+"🎬 Movies for every mood."
+
+];
+
+document.getElementById("hero-tagline").innerText =
+
+taglines[Math.floor(Math.random()*taglines.length)];
+
+</script>
+
+</body>
+
+</html>

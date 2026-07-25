@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Watchlist</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='watchlist.css') }}">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <h1>❤️ My Watchlist</h1>
+
+        <a href="{{ url_for('home') }}">
+            Home
+        </a>
+
+    </nav>
+
+    <!-- ========================= -->
+    <!-- Watchlist -->
+    <!-- ========================= -->
+
+    <div class="movies">
+
+        {% if movies %}
+
+            {% for movie in movies %}
+
+            <div class="card">
+
+                <img
+                    src="{{ movie.poster }}"
+                    alt="{{ movie.title }}"
+                >
+
+                <h2>{{ movie.title }}</h2>
+
+                <p>⭐ {{ movie.rating }}</p>
+
+                <p>🎭 {{ movie.genre }}</p>
+
+                <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
+
+                    <a href="{{ url_for('movie', title=movie.title) }}">
+
+                        <button>
+
+                            View
+
+                        </button>
+
+                    </a>
+
+                    <a href="{{ url_for('remove_watchlist', title=movie.title) }}">
+
+                        <button>
+
+                            Remove
+
+                        </button>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        {% else %}
+
+            <h2 style="text-align:center;">
+
+                Your Watchlist is Empty.
+
+            </h2>
+
+        {% endif %}
+
+    </div>
+
+
+</body>
+
+</html>

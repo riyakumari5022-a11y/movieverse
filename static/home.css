@@ -1,0 +1,566 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#141414;
+
+    color:white;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Navigation */
+
+nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 60px;
+
+    background:#111;
+}
+
+.logo{
+
+    color:#E50914;
+
+    font-size:32px;
+
+    font-weight:bold;
+}
+
+ul{
+
+    display:flex;
+
+    list-style:none;
+
+    align-items:center;
+}
+
+li{
+
+    margin-left:30px;
+
+    cursor:pointer;
+
+}
+
+li:hover{
+
+    color:#E50914;
+}
+
+/* Logout */
+
+.logout-btn{
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#E50914;
+
+    padding:10px 18px;
+
+    border-radius:6px;
+
+    transition:0.3s;
+}
+
+.logout-btn:hover{
+
+    background:#c40812;
+}
+
+/* Hero */
+
+.hero{
+
+    text-align:center;
+
+    padding:90px 20px 60px;
+
+    background:linear-gradient(to bottom,#111,#141414);
+}
+
+.hero h1{
+
+    font-size:60px;
+
+    margin-bottom:15px;
+
+    color:#E50914;
+}
+
+.hero h2{
+
+    font-size:36px;
+
+    margin-bottom:20px;
+
+    color:white;
+}
+
+.hero p{
+
+    font-size:20px;
+
+    color:#d0d0d0;
+
+    width:700px;
+
+    max-width:90%;
+
+    margin:auto;
+
+    margin-bottom:35px;
+
+    line-height:1.7;
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+}
+
+.primary-btn,
+.secondary-btn{
+
+    text-decoration:none;
+
+    padding:15px 30px;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.primary-btn{
+
+    background:#E50914;
+
+    color:white;
+}
+
+.secondary-btn{
+
+    background:#333;
+
+    color:white;
+}
+
+.primary-btn:hover{
+
+    background:#c40812;
+}
+
+.secondary-btn:hover{
+
+    background:#444;
+}
+
+
+/* Search */
+
+.search{
+
+    text-align:center;
+
+    margin:40px;
+}
+
+.search form{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+}
+
+.search input{
+
+    width:450px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:17px;
+}
+
+.search button{
+
+    padding:15px 30px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#E50914;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+}
+
+.search button:hover{
+
+    background:#c40812;
+}
+
+/* Movies */
+
+.movies{
+
+    padding:40px 60px;
+}
+
+.movies h2{
+
+    margin-bottom:25px;
+
+    font-size:30px;
+}
+
+.movie-row{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:25px;
+
+    justify-content:center;
+}
+
+/* Movie Card */
+
+.card{
+
+    width:220px;
+
+    background:#222;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    transition:0.3s;
+
+    cursor:pointer;
+
+    text-align:center;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.5);
+}
+
+.card:hover{
+
+    transform:scale(1.05);
+}
+
+.card img{
+
+    width:100%;
+
+    height:320px;
+
+    object-fit:cover;
+}
+
+.card h3{
+
+    margin:15px 10px;
+
+    color:white;
+
+    font-size:20px;
+}
+
+.card p{
+
+    margin-bottom:12px;
+
+    color:#dddddd;
+}
+
+/* Clickable Movie */
+
+.movie-link{
+
+    text-decoration:none;
+
+    color:white;
+}
+
+.nav-link{
+
+    text-decoration:none;
+
+    color:white;
+
+    transition:.3s;
+}
+
+.nav-link:hover{
+
+    color:#E50914;
+}
+
+/* -------------------- */
+/* Genre Filters */
+/* -------------------- */
+
+.filters{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    margin:30px 0;
+}
+
+.filters a{
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#222;
+
+    padding:10px 22px;
+
+    border-radius:25px;
+
+    transition:.3s;
+
+    font-size:16px;
+
+    font-weight:bold;
+}
+
+.filters a:hover{
+
+    background:#E50914;
+
+    transform:scale(1.05);
+}
+
+/* ===========================
+   HOME PAGE SECTIONS
+=========================== */
+
+.movies{
+
+    margin-top:60px;
+    padding:0 50px;
+}
+
+.section-title{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-bottom:20px;
+}
+
+.section-title h2{
+
+    font-size:30px;
+    color:white;
+}
+
+.section-title a{
+
+    color:#E50914;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.section-title a:hover{
+
+    color:white;
+}
+
+/* Horizontal Scroll */
+
+.movie-row{
+
+    display:flex;
+
+    gap:25px;
+
+    overflow-x:auto;
+
+    padding-bottom:15px;
+
+    scroll-behavior:smooth;
+}
+
+.movie-row::-webkit-scrollbar{
+
+    height:8px;
+}
+
+.movie-row::-webkit-scrollbar-thumb{
+
+    background:#444;
+
+    border-radius:20px;
+}
+
+/* Movie Cards */
+
+.card{
+
+    min-width:220px;
+
+    background:#202020;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    position:relative;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
+
+.card:hover{
+
+    transform:translateY(-10px) scale(1.05);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.7);
+}
+
+.card img{
+
+    width:100%;
+
+    height:320px;
+
+    object-fit:cover;
+
+    transition:.4s;
+}
+
+.card:hover img{
+
+    transform:scale(1.08);
+
+    filter:brightness(.7);
+}
+
+.card h3{
+
+    padding:15px 15px 5px;
+
+    font-size:20px;
+
+    color:white;
+}
+
+.card p{
+
+    padding:0 15px 10px;
+
+    color:#d0d0d0;
+
+    font-size:15px;
+}
+
+/* View Details Overlay */
+
+.card::after{
+
+    content:"🎬 View Details";
+
+    position:absolute;
+
+    top:45%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    background:#E50914;
+
+    color:white;
+
+    padding:12px 18px;
+
+    border-radius:8px;
+
+    opacity:0;
+
+    transition:.3s;
+
+    font-weight:bold;
+}
+
+.card:hover::after{
+
+    opacity:1;
+}
+
+/* Footer */
+
+footer{
+
+    margin-top:80px;
+
+    text-align:center;
+
+    padding:40px;
+
+    background:#111;
+}
+
+footer h3{
+
+    color:#E50914;
+
+    margin-bottom:10px;
+}
+
+footer p{
+
+    color:#aaa;
+}

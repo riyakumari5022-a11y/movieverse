@@ -1,0 +1,80 @@
+title,genre,language,industry,rating,year,duration,mood,poster,description
+Interstellar,Sci-Fi,English,Hollywood,8.7,2014,169,Thought Provoking,https://image.tmdb.org/t/p/w500/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg,A team travels through a wormhole to save humanity.
+Inception,Sci-Fi,English,Hollywood,8.8,2010,148,Mind Bending,https://image.tmdb.org/t/p/w500/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg,A thief enters dreams to steal secrets.
+The Dark Knight,Action,English,Hollywood,9.0,2008,152,Action Rush,https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg,Batman battles the Joker to save Gotham City.
+The Shawshank Redemption,Drama,English,Hollywood,9.3,1994,142,Inspirational,https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg,Two prisoners develop an enduring friendship over decades.
+Forrest Gump,Drama,English,Hollywood,8.8,1994,142,Feel Good,https://image.tmdb.org/t/p/w500/Cw4hIUIAmSYfK9QfaUW5igp9La.jpg,A kind-hearted man unintentionally witnesses historic events.
+The Matrix,Sci-Fi,English,Hollywood,8.7,1999,136,Mind Bending,https://image.tmdb.org/t/p/w500/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg,A hacker discovers the shocking truth about reality.
+Avatar,Sci-Fi,English,Hollywood,7.9,2009,162,Adventure,https://image.tmdb.org/t/p/w500/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg,A marine discovers a breathtaking alien world.
+Titanic,Romance,English,Hollywood,7.9,1997,194,Emotional,https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg,A tragic romance unfolds aboard the Titanic.
+Oppenheimer,Biography,English,Hollywood,8.4,2023,180,Thought Provoking,https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg,The story of the father of the atomic bomb.
+Gladiator,Action,English,Hollywood,8.5,2000,155,Action Rush,https://image.tmdb.org/t/p/w500/wN2xWp1eIwCKOD0BHTcErTBv1Uq.jpg,A betrayed Roman general fights for revenge.
+3 Idiots,Comedy,Hindi,Bollywood,8.4,2009,170,Feel Good,https://image.tmdb.org/t/p/w500/66A9MqXOyVFCssoloscw79z8Tew.jpg,Three engineering students redefine friendship and education.
+Dangal,Biography,Hindi,Bollywood,8.3,2016,161,Inspirational,https://image.tmdb.org/t/p/w500/cJRPOLEexI7qp2DKtFfCh7YaaUG.jpg,A father trains his daughters to become world champions.
+PK,Comedy,Hindi,Bollywood,8.1,2014,153,Thought Provoking,https://image.tmdb.org/t/p/w500/z2x2Y4tncefsIU7h82gmUM5vnBJ.jpg,An alien questions human beliefs and traditions.
+Chhichhore,Comedy,Hindi,Bollywood,8.3,2019,143,Feel Good,https://image.tmdb.org/t/p/w500/cGDPQtQ5igtPMt3oJ6BCAor6dFp.jpg,Old college friends reunite to celebrate life.
+Drishyam,Thriller,Hindi,Bollywood,8.2,2015,163,Mystery,https://image.tmdb.org/t/p/w500/456FlpiU1iOBnaOxSd783QhZKWw.jpg,A father protects his family through intelligence.
+Andhadhun,Thriller,Hindi,Bollywood,8.2,2018,139,Mystery,https://image.tmdb.org/t/p/w500/dy3K6hNvwE05siGgiLJcEiwgpdO.jpg,A blind pianist gets trapped in a murder mystery.
+Bajrangi Bhaijaan,Drama,Hindi,Bollywood,8.1,2015,163,Emotional,https://image.tmdb.org/t/p/w500/vhlliI7HZZlWfo5d6CiyfBAGLrW.jpg,A man helps a lost Pakistani girl return home.
+Shershaah,Biography,Hindi,Bollywood,8.4,2021,135,Inspirational,https://image.tmdb.org/t/p/w500/zGvFnwoXJKrYnKhoVPytqkqCJ8V.jpg,The inspiring journey of Captain Vikram Batra.
+Swades,Drama,Hindi,Bollywood,8.2,2004,189,Inspirational,https://image.tmdb.org/t/p/w500/yUSL24kpHc9Nls4Pohia4shgcIM.jpg,A NASA scientist returns to transform his village.
+Zindagi Na Milegi Dobara,Drama,Hindi,Bollywood,8.2,2011,155,Feel Good,https://image.tmdb.org/t/p/w500/hKO9O715wYxjkQSEv47giCYcyO8.jpg,Three friends discover themselves on a road trip.
+Jab We Met,Romance,Hindi,Bollywood,7.9,2007,138,Romantic,https://image.tmdb.org/t/p/w500/iqiH6vnoEgjAypKsuIScN7JlE2j.jpg,A lively woman changes the life of a depressed businessman.
+Kal Ho Naa Ho,Romance,Hindi,Bollywood,7.9,2003,186,Emotional,https://image.tmdb.org/t/p/w500/zhMI6I0kSLnewTMwE0A8Tz3Cj2f.jpg,A cheerful man teaches people how to live life fully.
+Dil Chahta Hai,Drama,Hindi,Bollywood,8.1,2001,183,Feel Good,https://image.tmdb.org/t/p/w500/c6Cicaf2FFmfcInfsbPTxMLk5CS.jpg,Three best friends experience love and adulthood together.
+Queen,Comedy,Hindi,Bollywood,8.1,2014,146,Inspirational,https://image.tmdb.org/t/p/w500/dfFVDIgovEfQZn53VRKLV2JQnRJ.jpg,A young woman discovers herself on a solo honeymoon.
+Piku,Drama,Hindi,Bollywood,7.6,2015,123,Feel Good,https://image.tmdb.org/t/p/w500/yo7EZWiLpLGhqs3YnlDGDBPjfTb.jpg,A daughter balances career while caring for her aging father.
+Rockstar,Romance,Hindi,Bollywood,7.7,2011,159,Emotional,https://image.tmdb.org/t/p/w500/91YwoAfOtbhMtXFzPHmWOEz15Q8.jpg,A musician's heartbreak transforms him into a rockstar.
+Lagaan,Drama,Hindi,Bollywood,8.1,2001,224,Inspirational,https://image.tmdb.org/t/p/w500/yNX9lFRAFeNLNRIXdqZK9gYrYKa.jpg,Villagers challenge British officers to a cricket match.
+Chak De! India,Sports,Hindi,Bollywood,8.1,2007,153,Inspirational,https://image.tmdb.org/t/p/w500/mmFMgEsTRCAGAtwffGpuo3mJsxN.jpg,A former hockey player coaches the Indian women's team.
+Hera Pheri,Comedy,Hindi,Bollywood,8.2,2000,156,Feel Good,https://image.tmdb.org/t/p/w500/23MKGUPT5laTStim4TaGhfgSltu.jpg,Three jobless men become involved in hilarious situations.
+Welcome,Comedy,Hindi,Bollywood,7.1,2007,159,Feel Good,https://image.tmdb.org/t/p/w500/1JlfUuvvX5xLP2LIDah4JhWUtTx.jpg,A man falls in love with a gangster's sister.
+Bhool Bhulaiyaa,Horror,Hindi,Bollywood,7.4,2007,151,Horror Night,https://image.tmdb.org/t/p/w500/soRW3p4GlPphHiFkwbqYGrodQ5S.jpg,A psychiatrist uncovers the mystery of a haunted palace.
+Hindi Medium,Comedy,Hindi,Bollywood,7.8,2017,132,Feel Good,https://image.tmdb.org/t/p/w500/2v0nQd3kYBV0iPNCVHiaLWGb1hg.jpg,Parents struggle to get their daughter into an elite school.
+Badhaai Ho,Comedy,Hindi,Bollywood,7.9,2018,124,Feel Good,https://image.tmdb.org/t/p/w500/vqT2U732KIHdSCRCeO0lslsmkxp.jpg,An unexpected pregnancy creates humorous family situations.
+OMG: Oh My God!,Comedy,Hindi,Bollywood,8.1,2012,125,Thought Provoking,https://image.tmdb.org/t/p/w500/iTPzC3H2iG49xFIcMs01UfZeBXv.jpg,A shopkeeper challenges blind faith after an earthquake.
+Special 26,Crime,Hindi,Bollywood,8.0,2013,144,Mystery,https://image.tmdb.org/t/p/w500/cOo6lOiZXO0zldPKsih9asKPWDo.jpg,Con artists pose as CBI officers for daring robberies.
+Article 15,Crime,Hindi,Bollywood,8.1,2019,130,Thought Provoking,https://image.tmdb.org/t/p/w500/egknEWNt2B0slG2OC0gSpLZdVHj.jpg,A police officer fights caste discrimination.
+Raazi,Thriller,Hindi,Bollywood,7.8,2018,138,Thought Provoking,https://image.tmdb.org/t/p/w500/sZHQ6yctAD27Ac0HLmi5afpOhKH.jpg,An Indian spy marries into a Pakistani military family.
+Baby,Action,Hindi,Bollywood,8.0,2015,159,Action Rush,https://image.tmdb.org/t/p/w500/tYzFuYXmT8LOYASlFCkaPiAFAl0.jpg,Elite agents race to stop terrorist attacks.
+Airlift,Drama,Hindi,Bollywood,8.0,2016,130,Inspirational,https://image.tmdb.org/t/p/w500/oyaxIm3kTWDQtcYQ45eN5sZ6WIz.jpg,A businessman leads the evacuation of Indians from Kuwait.
+Tumbbad,Horror,Hindi,Bollywood,8.2,2018,104,Horror Night,https://image.tmdb.org/t/p/w500/vzjZAKozbDplHWcQXbXo0APKxst.jpg,A man searches for hidden treasure guarded by an ancient curse.
+RRR,Action,Telugu,South Indian,7.8,2022,182,Action Rush,https://image.tmdb.org/t/p/w500/u0XUBNQWlOvrh0Gd97ARGpIkL0.jpg,Two revolutionaries unite against British rule.
+Baahubali: The Beginning,Action,Telugu,South Indian,8.0,2015,159,Adventure,https://image.tmdb.org/t/p/w500/9BAjt8nSSms62uOVYn1t3C3dVto.jpg,A young man discovers his royal heritage.
+Baahubali 2: The Conclusion,Action,Telugu,South Indian,8.2,2017,167,Adventure,https://image.tmdb.org/t/p/w500/21sC2assImQIYCEDA84Qh9d1RsK.jpg,Mahendra Baahubali returns to reclaim his kingdom.
+KGF Chapter 1,Action,Kannada,South Indian,8.2,2018,156,Action Rush,https://image.tmdb.org/t/p/w500/ltHlJwvxKv7d0ooCiKSAvfwV9tX.jpg,Rocky rises through the underworld seeking power.
+KGF Chapter 2,Action,Kannada,South Indian,8.2,2022,168,Action Rush,https://image.tmdb.org/t/p/w500/khNVygolU0TxLIDWff5tQlAhZ23.jpg,Rocky battles powerful enemies to protect his empire.
+Kantara,Action,Kannada,South Indian,8.2,2022,148,Mystery,https://image.tmdb.org/t/p/w500/jIsKmkxMzdCZ0Ux1GVSnu8m6Na6.jpg,A man confronts ancient traditions and divine forces.
+Jai Bhim,Drama,Tamil,South Indian,8.7,2021,164,Thought Provoking,https://image.tmdb.org/t/p/w500/ehybiOtBUtrMkmtB39zQEtq1Jie.jpg,A lawyer fights for justice for an innocent tribal family.
+Vikram,Action,Tamil,South Indian,8.3,2022,175,Action Rush,https://image.tmdb.org/t/p/w500/774UV1aCURb4s4JfEFg3IEMu5Zj.jpg,A special agent hunts a dangerous crime syndicate.
+Kaithi,Action,Tamil,South Indian,8.5,2019,145,Action Rush,https://image.tmdb.org/t/p/w500/hOF9CgPsy9aLr5GJEBESC8MEXFy.jpg,An ex-convict protects police officers during one dangerous night.
+Parasite,Thriller,Korean,Korean,8.5,2019,132,Thought Provoking,https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg,A poor family slowly enters the lives of a wealthy family.
+Train to Busan,Horror,Korean,Korean,7.6,2016,118,Horror Night,https://image.tmdb.org/t/p/w500/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg,Passengers struggle to survive a zombie outbreak.
+Oldboy,Thriller,Korean,Korean,8.4,2003,120,Dark,https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg,A man imprisoned for years seeks revenge.
+Memories of Murder,Thriller,Korean,Korean,8.1,2003,132,Mystery,https://image.tmdb.org/t/p/w500/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg,Detectives investigate Korea's first serial murder case.
+The Handmaiden,Thriller,Korean,Korean,8.1,2016,145,Romantic,https://image.tmdb.org/t/p/w500/dLlH4aNHdnmf62umnInL8xPlPzw.jpg,A conman and a maid plot against a wealthy heiress.
+Your Name,Romance,Japanese,Japanese,8.4,2016,106,Emotional,https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg,Two teenagers mysteriously swap bodies.
+Spirited Away,Fantasy,Japanese,Japanese,8.6,2001,125,Adventure,https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg,A young girl enters a magical spirit world.
+Princess Mononoke,Fantasy,Japanese,Japanese,8.4,1997,134,Adventure,https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg,A prince becomes caught between humans and nature.
+Weathering With You,Romance,Japanese,Japanese,7.5,2019,112,Romantic,https://image.tmdb.org/t/p/w500/qgrk7r1fV4IjuoeiGS5HOhXNdLJ.jpg,A runaway boy meets a girl who can control the weather.
+The Lion King,Animation,English,Hollywood,8.5,1994,88,Family Fun,https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg,A lion cub learns courage and responsibility.
+Avengers: Endgame,Action,English,Hollywood,8.4,2019,181,Action Rush,https://image.tmdb.org/t/p/w500/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg,The Avengers unite for one final battle against Thanos.
+Avengers: Infinity War,Action,English,Hollywood,8.4,2018,149,Action Rush,https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg,Earth's mightiest heroes face the powerful Thanos.
+Iron Man,Action,English,Hollywood,7.9,2008,126,Adventure,https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg,A billionaire builds a powerful suit to become Iron Man.
+Spider-Man: No Way Home,Action,English,Hollywood,8.2,2021,148,Adventure,https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg,Spider-Man meets heroes from different universes.
+Captain America: The Winter Soldier,Action,English,Hollywood,7.8,2014,136,Action Rush,https://image.tmdb.org/t/p/w500/tVFRpFw3xTedgPGqxW0AOI8Qhh0.jpg,Captain America uncovers a conspiracy within S.H.I.E.L.D.
+Mission: Impossible - Fallout,Action,English,Hollywood,7.7,2018,147,Action Rush,https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg,Ethan Hunt races against time to stop a global disaster.
+Top Gun: Maverick,Action,English,Hollywood,8.2,2022,131,Adventure,https://image.tmdb.org/t/p/w500/n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg,Maverick trains a new generation of fighter pilots.
+John Wick,Action,English,Hollywood,7.4,2014,101,Action Rush,https://image.tmdb.org/t/p/w500/wXqWR7dHncNRbxoEGybEy7QTe9h.jpg,A retired assassin returns after a personal tragedy.
+The Martian,Sci-Fi,English,Hollywood,8.0,2015,144,Inspirational,https://image.tmdb.org/t/p/w500/pjYWdykADVLTCh5g475RnI2hWIN.jpg,An astronaut fights to survive alone on Mars.
+Dune,Sci-Fi,English,Hollywood,8.0,2021,155,Adventure,https://image.tmdb.org/t/p/w500/gDzOcq0pfeCeqMBwKIJlSmQpjkZ.jpg,A young noble embraces his destiny on a desert planet.
+Blade Runner 2049,Sci-Fi,English,Hollywood,8.0,2017,164,Mind Bending,https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg,A blade runner uncovers a world-changing secret.
+Arrival,Sci-Fi,English,Hollywood,7.9,2016,116,Thought Provoking,https://image.tmdb.org/t/p/w500/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg,A linguist attempts to communicate with alien visitors.
+The Conjuring,Horror,English,Hollywood,7.5,2013,112,Horror Night,https://image.tmdb.org/t/p/w500/wVYREutTvI2tmxr6ujrHT704wGF.jpg,Paranormal investigators help a haunted family.
+A Quiet Place,Horror,English,Hollywood,7.5,2018,90,Horror Night,https://image.tmdb.org/t/p/w500/nAU74GmpUk7t5iklEp3bufwDq4n.jpg,A family survives creatures that hunt by sound.
+Home Alone,Comedy,English,Hollywood,7.7,1990,103,Family Fun,https://image.tmdb.org/t/p/w500/fP3VvqUjEBjawxZHL4sYCq2ZdJD.jpg,A clever boy protects his home from burglars.
+Toy Story,Animation,English,Hollywood,8.3,1995,81,Family Fun,https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg,Toys come alive whenever humans leave the room.
+Finding Nemo,Animation,English,Hollywood,8.2,2003,100,Family Fun,https://image.tmdb.org/t/p/w500/5lc6nQc0VhWFYFbNv016xze8Jvy.jpg,A clownfish searches the ocean for his missing son.
+Coco,Animation,English,Hollywood,8.4,2017,105,Emotional,https://image.tmdb.org/t/p/w500/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg,A boy discovers his family's musical history.
+Jurassic Park,Adventure,English,Hollywood,8.2,1993,127,Adventure,https://image.tmdb.org/t/p/w500/b1xCNnyrPebIc7EWNZIa6jhb1Ww.jpg,Dinosaurs return to life inside a theme park.
+The Pursuit of Happyness,Biography,English,Hollywood,8.0,2006,117,Inspirational,https://image.tmdb.org/t/p/w500/lBYOKAMcxIvuk9s9hMuecB9dPBV.jpg,A struggling salesman never gives up on his dreams.
